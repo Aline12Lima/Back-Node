@@ -4,7 +4,7 @@
   "description": "API desenvolvida no programa rock",
   "main": "index.js",
   "scripts": {
-    "start": "npm2-runtime start ecosystem.cofig.js --env production",
+    "start": "pm2-runtime start ecosystem.config.js --env production",
     "dev": "nodemon ./src/server.js",
     "migrate": " npx knex migrate:latest"
   },
